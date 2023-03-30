@@ -1,8 +1,18 @@
 # Dependencies
 .psci_modules
 bower_components
-node_modules
+node_modules/
 
 # Generated files
 .psci
+.project
+.vscode/
+.idea
+.DS_Store
+unpackage/
 output
+!packages/uni-app-plus/dist
+package-lock.json
+!packages/vue-cli-plugin-uni/packages/**/*
+tests/package.json
+*.DS_Store
