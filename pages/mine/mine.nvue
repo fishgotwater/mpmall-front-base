@@ -70,10 +70,7 @@
 page {
 	background: #d9d9d9;
 }
-.mine {
-	// height: calc(100vh - 50px);
-	// background: #d9d9d9;
-}
+.mine {}
 
 .top {
 	padding-top: 60px;

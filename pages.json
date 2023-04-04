@@ -1,31 +1,43 @@
 {
 	"pages": [
 		{
-		"path": "pages/home/home",
-		"style": {
-			"navigationBarTitleText": "官方商城",
-			"enablePullDownRefresh": false
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "官方商城",
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
 			}
 		},
 		{
 			"path": "pages/fenlei/fenlei",
 			"style": {
 				"navigationBarTitleText": "分类",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
 			}
 		},
 		{
 			"path": "pages/cart/cart",
 			"style": {
 				"navigationBarTitleText": "购物车",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
 			}
 		},
 		{
 			"path": "pages/pifa/pifa",
 			"style": {
 				"navigationBarTitleText": "批发",
-				"enablePullDownRefresh": false
+				"enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
 			}
 		},
 		{
@@ -33,7 +45,10 @@
 			"style": {
 				"navigationBarTitleText": "个人中心",
 				"enablePullDownRefresh": false,
-				"navigationStyle": "custom"
+				"navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": "none"
+				}
 			}
 		}
 	],
