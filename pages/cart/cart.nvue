@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<image v-if="isEmpty" class="kongde" src="../../static/img/cartempty.svg"></image>
 	</view>
 </template>
 
@@ -8,7 +8,7 @@
 	export default {
 		data() {
 			return {
-				
+				isEmpty: true,
 			}
 		},
 		methods: {
@@ -18,5 +18,11 @@
 </script>
 
 <style lang="scss">
+page {
+	background: #f2f2f2;
+}
 
+.kongde {
+	margin: 50px auto;
+}
 </style>

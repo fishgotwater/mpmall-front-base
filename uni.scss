@@ -14,6 +14,51 @@
 
 /* 颜色变量 */
 
+/* 主色 */
+$uni-primary: #2979ff;
+$uni-primary-disable:#94bcff;
+$uni-primary-light: #d4e4ff;
+
+/* 辅助色 */
+$uni-success: #18bc37;
+$uni-success-disable: #8cde9b;
+$uni-success-light: #d1f2d7;
+
+$uni-warning: #f3a73f;
+$uni-warning-disable: #f9d39f;
+$uni-warning-light: #fdedd9;
+
+$uni-error: #e43d33;
+$uni-error-disable: #f29e99;
+$uni-error-light: #fad8d6;
+
+$uni-info: #8f939c;
+$uni-info-disable: #c7c9ce;
+$uni-info-light: #e9e9eb;
+
+/* 中性色 */
+$uni-main-color: #3a3a3a; 			// 主要文字
+$uni-base-color: #6a6a6a;			// 常规文字
+$uni-secondary-color: #909399;		// 次要文字
+$uni-extra-color: #c7c7c7;			// 辅助说明
+
+/* 边框颜色 */
+$uni-border-1: #f0f0f0;
+$uni-border-2: #ededed;
+$uni-border-3: #dcdcdc;
+$uni-border-4: #b9b9b9;
+
+/* 常规色 */
+$uni-black: #000000;
+$uni-white: #ffffff;
+$uni-transparent: rgba($color: #000000, $alpha: 0);
+$uni-bg-color: #f7f7f7; // 背景色
+
+/* 阴影 */
+$uni-shadow-sm:0 0 5px rgba($color: #d8d8d8, $alpha: 0.5);
+$uni-shadow-base:0 1px 8px 1px rgba($color: #a5a5a5, $alpha: 0.2);
+$uni-shadow-lg:0px 1px 10px 2px rgba($color: #a5a4a4, $alpha: 0.5);
+
 /* 行为相关颜色 */
 $uni-color-primary: #007aff;
 $uni-color-success: #4cd964;
@@ -76,4 +121,4 @@ $uni-color-paragraph: #3F536E; // 文章段落颜色
 $uni-font-size-paragraph:30upx;
 
 /* 页面内间距 */
-$uni-padding: 10px;
+$uni-padding: 20rpx;
