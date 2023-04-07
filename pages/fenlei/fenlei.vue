@@ -98,7 +98,7 @@
 				} else if(system === 'android') {
 					return 48 + res.statusBarHeight;
 				} else {
-					return 56;
+					return 58;
 				}
 			},
 			onSelect({id}) {
@@ -131,21 +131,17 @@
 <style lang="scss">
 .fenlei {}
 .search {
-	width: 100%;
-	height: 110rpx;
-	display: block;
 	background: #FFFFFF;
 	padding: $uni-padding;
 	border-bottom: 1px solid #b9b9b9;
 }
 :deep(.is-input-border) {
 	border-color: #f33e54 !important;
-	border-radius: 18px;
+	border-radius: 36rpx;
 }
 
 .list {
 	display: flex;
-	flex-direction: row;
 }
 .list-left {
 	width: 188rpx;
@@ -156,7 +152,6 @@
 	height: 88rpx;
 	line-height: 88rpx;
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 	&.active {
@@ -172,7 +167,7 @@
 
 .list-right {
 	flex: 1;
-	padding-top: 2px;
+	padding-top: 4rpx;
 	background: #fafafa;
 	.empty {
 		margin-top: 8%;
@@ -183,7 +178,6 @@
 }
 .list-right-item {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
 	padding: 6px;
@@ -196,17 +190,15 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		padding-left: 5px;
+		padding-left: 10rpx;
 		& .price-buy {
 			display: flex;
-			flex-direction: row;
 			justify-content: space-between;
 			align-items: flex-end;
 		}
 	    & .price {
 			color: #f33e54;
 			display: flex;
-			flex-direction: row;
 			align-items: baseline;
 		}
 		& .price .yangjiao {

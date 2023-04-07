@@ -80,50 +80,47 @@ page {
 }
 .userInfo {
 	display: flex;
-	flex-direction: row;
 	align-items: center;
 	.touxiang {
 		width: 150rpx;
 		height: 150rpx;
-		margin-left: 15px;
+		margin-left: 30rpx;
 	}
 	.describe {
-		margin-left: 10px;
+		margin-left: 20rpx;
 		color: #ffffff;
-		font-size: 16px;
+		font-size: 32rpx;
 		font-weight: 600;
-		line-height: 24px;
+		line-height: 48rpx;
 		& > .subTitle {
-			font-size: 12px;
+			display: block;
+			font-size: 24rpx;
 			font-weight: 400;
-			line-height: 20px;
+			line-height: 40rpx;
 		}
 	}
 }
 .order {
-	width: calc(100% - 20px);
-	height: 215rpx;
 	background: #ffffff;
-	border-radius: 10px;
-	margin: 0 auto;
-	padding: 10px;
+	border-radius: 20rpx;
+	margin: 0 10rpx;
+	padding: 20rpx 10rpx;
 	position: relative;
-	bottom: -25px;
+	bottom: -50rpx;
 }
 .orderTop {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 12px;
+	margin-bottom: 24rpx;
 }
 .orderTop > text:first-child {
 	color: #1f1f1f;
-	font-size: 16px;
+	font-size: 30rpx;
 	font-weight: 550;
 }
 .orderTop > text:last-child {
-	font-size: 14px;
+	font-size: 28rpx;
 	color: #8c8c8c;
 }
 :deep(.uni-grid) {
@@ -139,27 +136,26 @@ page {
 	align-items: center;
 }
 .grid-item-box > text {
-	font-size: 14px;
+	font-size: 28rpx;
 }
 
 .middle {
-	width: calc(100% - 20px);
-	height: 350rpx;
 	background: #ffffff;
-	border-radius: 10px;
-	margin: 0 auto;
-	margin-top: 40px;
-	padding: 10px;
+	border-radius: 20rpx;
+	margin: 0 10rpx;
+	margin-top: 80rpx;
+	padding: 20rpx 10rpx;
 	:deep(.uni-grid-item) {
 		height: auto;
-		margin-bottom: 10px;
+		margin-bottom: 20rpx;
 	}
 }
 .middle > text {
+	display: block;
 	color: #1f1f1f;
-	font-size: 16px;
+	font-size: 30rpx;
 	font-weight: 550;
-	margin-bottom: 12px;
+	margin-bottom: 24rpx;
 }
 
 .bottom {}
