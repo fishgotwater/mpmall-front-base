@@ -24,7 +24,6 @@ export default {
 
 <style>
 /*每个页面公共css */
-/* #ifdef H5 */
 ::-webkit-scrollbar {
 	display: none;
 	width: 0 !important;
@@ -32,5 +31,4 @@ export default {
 	-webkit-appearance: none;
 	background: transparent;
 }
-/* #endif */
 </style>
