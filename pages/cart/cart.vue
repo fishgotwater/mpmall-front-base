@@ -23,6 +23,7 @@ page {
 }
 
 .kongde {
-	margin: 100rpx auto;
+	width: 100%;
+	margin: 125rpx auto;
 }
 </style>
